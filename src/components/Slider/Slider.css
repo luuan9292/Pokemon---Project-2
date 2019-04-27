@@ -1,0 +1,1 @@
+.carousel{background:rgba(12,12,12,0.1);margin-bottom:5%}.carousel .carousel-cell{width:19%;height:auto;margin-right:10px;background-color:rgba(12,12,12,0.1);counter-increment:gallery-cell;opacity:0.4}.carousel .carousel-cell.is-selected{opacity:1;height:450px}.carousel .carousel-cell img{margin:0 auto;display:block;width:90%}

@@ -1,0 +1,67 @@
+.card-type{background:linear-gradient(24deg, rgba(237,27,36,0.95) 10%, rgba(12,12,12,0.1) 60%);font-size:2em;margin-top:-15%;transition:transform 1.5s}.card-type .pkm-info,.card-type .trainer-info{margin-left:3%}.card-type .pkm-info h1,.card-type .trainer-info h1{font-family:"Fascinate Inline",cursive;font-size:2.5em}.card-type img{margin-left:20%}.card-type .trainer-info,.card-type .trainer-img{display:none}.card-type:hover .pkm-info,.card-type:hover .pkm-img{display:none}.card-type:hover .trainer-info,.card-type:hover .trainer-img{display:block}.energy-card-type{background:linear-gradient(120deg, rgba(237,27,36,0.95) 10%, rgba(12,12,12,0.1) 60%);font-size:2em}.energy-card-type .energy-info{margin-left:50%}.energy-card-type .energy-info h1{font-family:"Fascinate Inline",cursive;font-size:2.5em}.energy-card-type .energy-img{display:flex;flex-wrap:wrap;justify-content:center;text-align:center}.energy-card-type .energy-img .type-info{width:30%}.energy-card-type .energy-img .type-info .frame__img{position:relative}.energy-card-type .energy-img .type-info .frame__img img:first-child{width:90%}.energy-card-type .energy-img .type-info .frame__img img:nth-child(2){position:absolute;top:0;left:8%;width:85%}.energy-card-type .energy-img .type-info .frame__info{position:relative;margin-bottom:10%}.energy-card-type .energy-img .type-info .frame__info img:first-child{width:90%}.energy-card-type .energy-img .type-info .frame__info p{padding:0 12%;text-align:justify;position:absolute;top:15%}.background-2{background-image:url("/img/background-2.png");background-size:cover;opacity:0.1;max-width:100%;height:150vh;margin-top:-25%}
+
+.type-info:hover {
+    animation: card 2s infinite;
+    -webkit-animation: card 2s infinite;
+    -moz-animation: card 2s infinite;
+}
+
+@keyframes card {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes card {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@-moz-keyframes card {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .frame__info p{
+        font-size: .9em;
+    }
+}

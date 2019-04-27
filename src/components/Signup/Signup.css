@@ -1,0 +1,13 @@
+.logo img{width:20%;height:30%;margin-bottom:10%}.form-signup{text-align:center;width:90%;margin:0 auto;color:white;font-weight:bold;font-size:2em}.form-signup input{border:5px solid dodgerblue;border-radius:2%}.gymlogo img{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);opacity:0.1;z-index:-100}.singup__btn{font-size:2em;font-weight:bold;padding:0 7%;margin-top:2%}
+
+#myModal {
+    font-size: 2em;
+    color: black;
+    display: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .form-signup {
+        font-size: 1.9em;
+    }
+}

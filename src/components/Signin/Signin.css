@@ -1,0 +1,36 @@
+.form-signin{text-align:center;width:90%;margin:0 auto;color:white;font-weight:bold;font-size:2em}.form-signin input{border:5px solid forestgreen;border-radius:2%}.signin__btn{font-size:1.5em;font-weight:bold;padding:0.5% 5%;margin-top:2%}
+
+
+
+.annouce h1 {
+    font-family: "Fascinate Inline",cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 9em;
+    color: tomato;
+    font-weight: 900;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.annouce h2 {
+    font-family: "Fascinate Inline",cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5em;
+    color: white;
+    font-weight: 500;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.trainers{
+    position:absolute;top:50%;left:80%;
+    transform:translate(-50%, -50%);
+    z-index:-100
+}
+
+#login__alert {
+    width: 50%;
+    font-size: 2em;
+}

@@ -1,0 +1,65 @@
+.background__memory--first {
+	position: relative;
+	background-image: url("/img/background1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 110vh;
+}
+
+.background__memory--second {
+	position: relative;
+	background-image: url("/img/background2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 110vh;
+}
+
+.memory-game {
+	position: absolute;
+	top: 7%;
+	left: 7%;
+	width: 85%;
+	height: 85%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.memory-card {
+	width: calc(12.5% - 10px);
+	height: calc(30% - 10px);
+	margin: 5px;
+	position: relative;
+	transform: scale(1);
+	transform-style: preserve-3d;
+	transition: transform .5s;
+}
+
+.memory-card:active {
+	transform: scale(.97);
+	transition: transform .2s;
+}
+
+.memory-card.flip {
+	transform: rotateY(180deg);
+}
+
+
+.front-face,
+.back-face {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	backface-visibility: hidden;
+}
+
+.front-face {
+	transform: rotateY(180deg);
+}
+
+.memory-card img {
+	width: 100%;
+}
